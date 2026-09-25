@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TGHE_Delivery.components
+namespace TGHE_Delivery
 {
-    abstract class Node
+    internal abstract class Node
     {
-        public int ID { get; }
+        public int Id { get; }
 
         protected Node(int id)
         {
-            ID = id;
+            Id = id;
         }
     }
 }
