@@ -1,5 +1,4 @@
 ﻿using System;
-using TGHE_Delivery.components;
 
 namespace TGHE_Delivery
 {
